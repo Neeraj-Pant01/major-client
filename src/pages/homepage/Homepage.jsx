@@ -224,7 +224,7 @@ const Homepage = ({ setOpen, open }) => {
           <button style={{backgroundColor:`${pathname === "/" ? "#ffba00" : "white"}`}} className='px-6 bg-[white] py-3 rounded-md'>HOMEPAGE</button>
           <button className='px-6 bg-[white] py-3 rounded-md' onClick={()=>navigate('/all')}>VIEW ALL</button>
           <button className='px-6 bg-[white] py-3 rounded-md' onClick={()=>navigate('/hot-deals')}>HOURLEY DEALS</button>
-          <button className='px-6 bg-[white] py-3 rounded-md'>UPLOAD PRODUCT</button>
+          {/* <button className='px-6 bg-[white] py-3 rounded-md'>UPLOAD PRODUCT</button> */}
         </div>
       </div>
       <div className='flex items-center justify-center md:px-[140px] flex-wrap border bg-[#f3f1f1] pb-9 pt-10'>
